@@ -13,15 +13,18 @@ body{
 }
 
 .linksInicial{
-	margin-left: 150px;
+	margin-left: 180px;
 }
 
 h2{
 	color: white;
 	margin-left: 10px;
 	font-size: 18px;
-	border-bottom-width:1px solid white;
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+    font-style: normal;
 }
+
 
 .corAzul{
 	color: #000080;
@@ -33,18 +36,28 @@ h2{
 	border-radius: 15px;
 	width: 220px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 11px;
 	color: #000080;
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+    font-style: normal;
 }
 
 h1{
 	margin-top: 0px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+    font-style: normal;
+
 }
 .caixaLinks{
     text-decoration: none;
     color: white;
     font-size: 12px;
     margin-left: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .caixaLinks:hover{
@@ -52,7 +65,7 @@ h1{
 }
 
 .iconsInicial{
-	margin-left: 120px;
+	margin-left: 130px;
 	display:inline-flex;
 	align-items: center;
 }
@@ -81,6 +94,13 @@ h1{
 	margin-left: 10px;
 }
 
+.textoInicio{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
 .buttonOferta{
    background-color:#000080;
    color: white;
@@ -103,8 +123,8 @@ h1{
 }
 
 .cardsInicial{
-	height: 130px;
-	width: 180px;
+	height: 140px;
+	width: 170px;
 	margin-right: 25px;
 	border-radius: 5px;
 	box-shadow: 1px 1px 2px black;
@@ -122,11 +142,17 @@ h1{
 	margin-top:3px;
 	margin-bottom: 10px;
 	color: #000080;
+	font-family: 'Playfair Display', serif;
+	font-weight: 800;
+    font-style: normal;
 }
 
 .textCardsInical{
-	font-size: 13px;
+	font-size: 12px;
 	margin-top: 2px;
+	font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .caixaProdutos{
@@ -134,6 +160,10 @@ h1{
 	align-items: center;
 	justify-content: center;
 
+}
+
+.containerProdutos{
+  margin-top: 55px;
 }
 
 .produto{
@@ -165,6 +195,10 @@ h1{
 	margin-top: 0px;
 	color: #000080;
 	transition: 0.3s;
+	font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
 }
 
 .buttonProdutos:hover{
@@ -180,13 +214,20 @@ h1{
 
 .preco{
 	margin-top: 0px;
+	font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .tiProdutos{
 	color: black;
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 	font-size: 13PX;
+	font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+
 }
 
 .tiPrincipalProdutos{
@@ -194,18 +235,24 @@ h1{
 	margin-top: 30px;
 	display: flex;
 	justify-content: center;
+	font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
 }
 
 .parcela{
 	font-size: 13px;
-	margin-top: 5px;
+	margin-top: 2px;
 	margin-bottom: 14px;
+	font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer{
     margin-top: 30px;
 	background-color: #000080;
-	height: 210px;
+	height: 250px;
 	display: flex;
 	align-items: center;
 	
@@ -217,6 +264,9 @@ footer{
 	width: 300px;
 	margin-left: 30px;
 	height: 210px;
+	font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .iconsRedeSociais{
@@ -228,6 +278,7 @@ footer{
 
 .ti-cabecario{
 	font-size: 20px;
+	margin-top: 0px;
 }
 
 .destaque{
@@ -236,12 +287,15 @@ footer{
  flex-direction: column;
  display: flex;
  height: 210px;
+ font-family: "Poppins", sans-serif;
+ font-weight: 400;
+ font-style: normal;
 }
 
 .linksRapido{
 	text-decoration: none;
 	color: white;
-	margin-bottom: 8px;
+	margin-bottom: 5px;
 	font-size: 15px;
 }
 
@@ -250,6 +304,8 @@ footer{
 	margin-left: 180px;
 	color:white;
 	font-size: 13px;
-
+	font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
